@@ -203,9 +203,17 @@
 }
 
 /*** Service ***/
+
+.row {
+  display: flex !important;
+  justify-content: space-around;
+}
 .service-item {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
   transition: 0.5s;
+  height: 370px !important;
+  width: 300px;
+  text-align: center;
 }
 
 .service-item:hover {
